@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header text-center">
+            Cadastro de Cliente
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Dados Cadastrais</h5>
+            <form method="post">
+                <div asp-validation-summary="All"></div>
+                <label asp-for="UserAuth.Username" class="control-label">Username</label>
+                <input asp-for="UserAuth.Username" type="text" class="form-control" />
+
+                <label asp-for="UserAuth.Password" class="control-label">Password</label>
+                <input asp-for="UserAuth.Password" type="password" class="form-control" />
+
+                <br />
+                <br />
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-primary" value="Login" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

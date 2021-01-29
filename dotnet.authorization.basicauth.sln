@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Authorization.BasicAuth", "Dotnet.Authorization.BasicAuth\Dotnet.Authorization.BasicAuth.csproj", "{5A03AC78-0ADC-419C-AF9D-B45E2DE5E79D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A03AC78-0ADC-419C-AF9D-B45E2DE5E79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A03AC78-0ADC-419C-AF9D-B45E2DE5E79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A03AC78-0ADC-419C-AF9D-B45E2DE5E79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A03AC78-0ADC-419C-AF9D-B45E2DE5E79D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D87F7336-5DF5-46DA-B85F-5111699DE15A}
+	EndGlobalSection
+EndGlobal
